@@ -2,6 +2,7 @@ package overriding;
 
 public class main {
 public static void main(String[] args) {
+	// overriding dùng để thay đổi giá trị của phương thức class cha , để phù hơp cho class con
 	System.out.println("dog:");
 	dog d = new dog();
 	d.eat();
